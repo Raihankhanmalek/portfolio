@@ -8461,6 +8461,7 @@ h1, h2, h3, h4, h5,
           position: relative;
           height: 750px;
           z-index: -1;
+          background-image: url('../images/face.jpg');
           -webkit-box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16);
           -moz-box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16);
           box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16); }
@@ -8489,7 +8490,9 @@ h1, h2, h3, h4, h5,
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 100%;
-              z-index: 0; }
+              z-index: 0;
+              background-image: url('../images/face_2.jpg');
+            }
               .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
                 opacity: .3; }
               .owl-carousel.home-slider .slider-item .slider-text .one-third:after {
